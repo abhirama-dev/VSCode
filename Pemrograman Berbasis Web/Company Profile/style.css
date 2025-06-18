@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.judul-link {
+  color: white;
+  text-decoration: none;
+}
+
+.judul-link:hover {
+  opacity: 0.8;
+}
+
+body {
+  background-color: aqua;
+}
+
+.container {
+  width: auto;
+  margin: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: blue;
+  padding: 50px;
+  text-align: center;
+}
+
+header h1 {
+  color: #423ff1;
+  font-size: 36px;
+}
+
+footer {
+  background-color: #c0c0c0;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  min-height: auto;
+  flex: 1;
+}
+
+.sidebar {
+  width: 150px;
+  height: auto;
+  background-color: rgb(53, 77, 214);
+  color: white;
+  padding: 20px 10px;
+}
+
+.sidebar h4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  padding: 5px;
+  color: rgb(255, 255, 255);
+}
+
+.content {
+  flex: 1;
+  padding: 30px;
+}
+
+.biodata-header {
+  background-color: #aaaaac;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.biodata-table {
+  margin: auto;
+}
+
+.biodata-table td {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.kampus {
+  background-color: #ccccff;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.galery {
+  border: 0;
+  width: 500px;
+  height: 300px;
+  margin: auto;
+}
+
+.galery td {
+  text-align: center;
+  align-items: center;
+}
+
+.galery img {
+  width: 100px;
+  height: 130px;
+}
+
+.bodi {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+}
+
+.bodi h3 {
+  margin-bottom: 10px;
+}
+
+.jadual {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.jadual, .jadual th, .jadual td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: left;
+}
+
+.social-box {
+  width: fit-content;
+  padding: 20px;
+  border: 0px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.judul-medsos {
+  background-color: #e0e0e0;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+}
+
+.social-link img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.social-link:hover img {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+
+.makan {
+  border: 0;
+  width: 500px;
+  height: 300px;
+  margin: auto;
+}
+
+.makan td {
+  text-align: center;
+  align-items: center;
+}
+
+.makan img {
+  width: 90px;
+  height: 120px;
+}
